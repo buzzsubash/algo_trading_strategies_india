@@ -57,7 +57,7 @@ This repository is an **open-source** collection of **algorithmic trading strate
 ## ⚠️ Disclaimer & Risk Warning
 
 This repository contains my **personal work** and is intended **purely for educational purposes**.  
-These strategies are **not** financial or investment advice.  
+These strategies are **not** financial or investment advice. And I am **not a SEBI registered** investment advisor or a research analyst.
 
 Trading in derivatives, particularly in options, carries **significant risk** and can result in substantial financial losses. **Over 90% of traders in index options incur losses**, as highlighted by financial regulators and experts.
 
