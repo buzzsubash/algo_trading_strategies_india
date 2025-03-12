@@ -100,7 +100,7 @@ def get_banknifty_ltp():
             time.sleep(2)
             a+=1
             try:
-                telegram_bot_sendtext('B6-50-60 kiteconnect api error unable to fetch ltp of banknifty, retrying....')
+                telegram_bot_sendtext('50-60 kiteconnect api error unable to fetch ltp of banknifty, retrying....')
             except:
                 pass
 
@@ -149,7 +149,7 @@ def get_trade_price(order_id):
             time.sleep(1)
             a+=1
             try:
-                telegram_bot_sendtext('B6-50-60 kiteconnect api error, unable to open tradebook get_trade_price module, retrying....')
+                telegram_bot_sendtext('50-60 kiteconnect api error, unable to open tradebook get_trade_price module, retrying....')
             except:
                 pass
 
@@ -171,7 +171,7 @@ def get_trade_quantity(order_id):
             time.sleep(1)
             a+=1
             try:
-                telegram_bot_sendtext('B6-50-60 kiteconnect api error, unable to open tradebook get_trade_quantity module, retrying....')
+                telegram_bot_sendtext('50-60 kiteconnect api error, unable to open tradebook get_trade_quantity module, retrying....')
             except:
                 pass
 
@@ -191,7 +191,7 @@ def get_order_status(order_id):
             time.sleep(1)
             a+=1
             try:
-                telegram_bot_sendtext('B6-50-60 kiteconnect api error, unable to open tradebook get_order_status module, retrying....')
+                telegram_bot_sendtext('50-60 kiteconnect api error, unable to open tradebook get_order_status module, retrying....')
             except:
                 pass
 
@@ -224,7 +224,7 @@ def get_fo_ltp(symbol):
             time.sleep(2)
             a+=1
             try:
-                telegram_bot_sendtext('B6-50-60 kiteconnect api error, unable to fetch FO ltp get_fo_ltp module, retrying....')
+                telegram_bot_sendtext('50-60 kiteconnect api error, unable to fetch FO ltp get_fo_ltp module, retrying....')
             except:
                 pass
 
@@ -244,7 +244,7 @@ def universal_exit():
         cancel_order(pe_sl_orderid)
         marketorder_buy(pe_symbol,lots*25)
     try:
-        telegram_bot_sendtext('B6-50-60 univresal exit hit')
+        telegram_bot_sendtext('50-60 univresal exit hit')
     except:
         pass
 
@@ -328,7 +328,7 @@ def get_cancelled_qty(order_id):
         """
         msg_status=str(cancelled_df['status_message'].iloc[-1])
         try:
-            telegram_bot_sendtext('B6-50-60 stoploss order cancelled')
+            telegram_bot_sendtext('stoploss order cancelled')
             telegram_bot_sendtext(msg_status)
         except:
             pass

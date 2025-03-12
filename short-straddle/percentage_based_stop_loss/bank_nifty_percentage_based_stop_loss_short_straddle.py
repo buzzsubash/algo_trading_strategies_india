@@ -1,5 +1,3 @@
-# B6 Modified strategy, % based SL
-
 from kiteconnect import KiteConnect
 import pandas as pd
 import datetime as dt
