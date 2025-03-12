@@ -13,7 +13,7 @@ nse_holidays = [dt.date(2021, 7, 21), dt.date(2021, 8, 19), dt.date(2021, 9, 10)
 api_key = ""
 api_secret = ""
 
-access_token = open('/home/ec2-user/b6_short_straddle/subash/access_token_subash.txt', 'r').read()
+access_token = open('/home/ec2-user/.txt', 'r').read()
 
 trade_entry_time = dt.time(hour=9, minute=59)
 re_entry_time = dt.time(hour=12, minute=30)

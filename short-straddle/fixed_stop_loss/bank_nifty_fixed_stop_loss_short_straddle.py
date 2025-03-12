@@ -12,10 +12,10 @@ pe_stoploss_value=60
 nse_holidays=[dt.date(2021,7,21),dt.date(2021,8,19),dt.date(2021,9,10),dt.date(2021,10,15),dt.date(2021,11,4),dt.date(2021,11,5),dt.date(2021,11,19)]
 
 
-api_key = "1t306nxawlfv28w4"
-api_secret = "9d51k5tv170r8ehpz83g4iy6at4d9lst"
+api_key = ""
+api_secret = ""
 
-access_token=open('/home/ec2-user/keyfiles/subash/access_token_subash.txt','r').read()
+access_token=open('/home/ec2-user/keyfiles/','r').read()
 
 open_time=dt.time(hour=9,minute=15)
 trade_entry_time=dt.time(hour=9,minute=59)

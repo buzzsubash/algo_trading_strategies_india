@@ -3,8 +3,8 @@ import datetime as dt
 import time
 import pandas as pd
 
-api_key = '1t306nxawlfv28w4'
-access_token_zer = open("/home/ubuntu/utilities/subash_algo_trading/key_files/access_token.txt", 'r').read()
+api_key = ''
+access_token_zer = open("/home/ubuntu/utilities/", 'r').read()
 
 kite = KiteConnect(api_key=api_key)
 kite.set_access_token(access_token_zer)
