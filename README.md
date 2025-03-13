@@ -1,4 +1,4 @@
-# Algo Trading Strategies India
+# Algo Trading - Option Selling Trading Strategies India
 
 [![GitHub stars](https://img.shields.io/github/stars/buzzsubash/algo_trading_strategies_india?style=social)](https://github.com/buzzsubash/algo_trading_strategies_india/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/buzzsubash/algo_trading_strategies_india?style=social)](https://github.com/buzzsubash/algo_trading_strategies_india/network/members)
@@ -54,6 +54,31 @@ This repository is an **open-source** collection of **algorithmic trading strate
 
 ---
 
+## 📩 Contact & Collaboration  
+
+I'm always open to discussions on **algo trading**, whether it's:  
+✅ Enhancing existing strategies  
+✅ Designing new trading algorithms  
+✅ Deep-diving into strategy backtesting  
+✅ Exploring advanced risk management techniques  
+
+If you're interested in collaborating or discussing algo trading strategies, feel free to connect with me!  
+
+### 🔗 **Let's Connect!**  
+
+- 📱 **WhatsApp:** [https://wa.me/6594675969](https://wa.me/6594675969) [https://wa.me/919605006699](https://wa.me/919605006699)  
+- 🐦 **Twitter (X):** [https://x.com/buzzsubash](https://x.com/buzzsubash)  
+- 📍 **LinkedIn:** [https://www.linkedin.com/in/buzzsubash](https://www.linkedin.com/in/buzzsubash)
+- 💻 **GitHub:** [https://github.com/buzzsubash](https://github.com/buzzsubash)  
+- 📘 **Facebook:** [https://www.facebook.com/buzzsubash/](https://www.facebook.com/buzzsubash/)  
+- 🏆 **Credly Certifications:** [https://www.credly.com/users/subash-krishnan](https://www.credly.com/users/subash-krishnan)  
+- 👾 **Reddit:** [https://www.reddit.com/user/buzzsubash/](https://www.reddit.com/user/buzzsubash/)  
+- 📝 **Blog:** [https://emcsaninfo.wordpress.com/](https://emcsaninfo.wordpress.com/)  
+
+
+🚀 **Let's build, test, and innovate in the algo trading space together!**  
+
+
 ## ⚠️ Disclaimer & Risk Warning
 
 This repository contains my **personal work** and is intended **purely for educational purposes**.  
@@ -61,24 +86,5 @@ These strategies are **not** financial or investment advice. And I am **not a SE
 
 Trading in derivatives, particularly in options, carries **significant risk** and can result in substantial financial losses. **Over 90% of traders in index options incur losses**, as highlighted by financial regulators and experts.
 
-### 🚨 Key Risk Warnings:
-- **High Volatility** – Options trading can see rapid price swings.
-- **Leverage Risks** – Small price movements can magnify losses.
-- **Market Unpredictability** – No strategy guarantees success.
-- **Regulatory Oversight** – Exchanges & regulators may impose restrictions.
-
-**Trading derivatives without a clear risk management plan can lead to serious financial losses.** Always trade cautiously, backtest strategies, and consult with a **certified financial advisor** before making any trading decisions.
-
----
-
-## 📚 Further Reading on the Risks of Derivatives Trading
-
-🔹 **SEBI: Over 90% of F&O Traders Lose Money**  
-📖 [Read on Moneycontrol](https://www.moneycontrol.com/news/business/over-90-fo-traders-losing-nses-derivative-contracts-still-12543131.html)
-
-🔹 **Why You Must Avoid the Trap of Derivative Trading**  
-📖 [Read on Economic Times](https://m.economictimes.com/wealth/invest/over-90-of-derivative-traders-lost-money-why-you-must-avoid-the-trap-of-derivative-trading/articleshow/107154467.cms)
-
----
 
 🔥 **Trade Responsibly. Invest Wisely. Stay Safe.** 🔥
