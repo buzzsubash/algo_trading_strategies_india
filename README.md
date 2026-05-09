@@ -18,6 +18,7 @@ This repository is an **open-source** collection of **algorithmic trading strate
 
 ## 🚀 Features
 ✅ **Multiple short-straddle strategies** with different risk management techniques  
+✅ **Multiple short-strangle strategies** — OTM selling across BankNifty, Nifty50, FinNifty & Sensex  
 ✅ **Iron-fly strategies** for hedged option selling  
 ✅ **Stop-loss mechanisms** including **fixed, percentage-based, and trailing stops**  
 ✅ **Mark-to-market (MTM) based target execution**  
@@ -44,7 +45,17 @@ This repository is an **open-source** collection of **algorithmic trading strate
 |  | Percentage-Based Stop Loss | BANK NIFTY Percentage-Based SL | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-straddle/percentage_based_stop_loss/bank_nifty_percentage_based_stop_loss_short_straddle.py) |
 |  | Trailing Stop Loss | BANK NIFTY Trailing Percentage-Based SL | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-straddle/trailing_stop_loss/bank_nifty_trailing_percentage_based_stop_loss_short_straddle.py) |
 | **Iron-Fly** | | | ⚙️ In Development | | | | *(Coming Soon!)* |
-| **Short-Strangle** | | | ⚙️ In Development | | | | *(Coming Soon!)* |
+| **Short Strangle** | 0920 Expiry | BANKNIFTY 0920 | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/0920_short_strangle/banknifty_0920_short_strangle.py) |
+|  |  | NIFTY50 0920 | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/0920_short_strangle/nifty50_0920_short_strangle.py) |
+|  |  | FINNIFTY 0920 | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/0920_short_strangle/finnifty_0920_short_strangle.py) |
+|  |  | SENSEX 0920 | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/0920_short_strangle/sensex_0920_short_strangle.py) |
+|  | Combined Premium | BANK NIFTY Combined Premium | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/combined_premium/bank_nifty_combined_premium_short_strangle.py) |
+|  | Fixed Stop Loss | BANK NIFTY Fixed SL | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/fixed_stop_loss/bank_nifty_fixed_stop_loss_short_strangle.py) |
+|  |  | BANK NIFTY Account-Level MTM SL | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/fixed_stop_loss/bank_nifty_account_level_mtm_with_fixed_stop_loss_short_strangle.py) |
+|  | MTM Based Target | BANK NIFTY MTM-Based | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/mtm_based_target/bank_nifty_mtm_based_short_strangle.py) |
+|  |  | NIFTY50 MTM-Based | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/mtm_based_target/nifty50_mtm_based_short_strangle.py) |
+|  | Percentage-Based Stop Loss | BANK NIFTY Percentage-Based SL | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/percentage_based_stop_loss/bank_nifty_percentage_based_stop_loss_short_strangle.py) |
+|  | Trailing Stop Loss | BANK NIFTY Trailing Percentage-Based SL | ✅ | ❌ | ❌ | ❌ | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/short-strangle/trailing_stop_loss/bank_nifty_trailing_percentage_based_stop_loss_short_strangle.py) |
 
 ---
 
