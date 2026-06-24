@@ -1,0 +1,19 @@
+# Real config (copy from clients_config.yaml.example and fill in your values)
+clients_config.yaml
+
+# Access tokens (generated at runtime by login scripts)
+access_tokens/
+*.txt
+
+# Logs
+logs/
+
+# PnL charts
+*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+bots_venv/
+.DS_Store

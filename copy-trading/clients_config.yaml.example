@@ -1,0 +1,80 @@
+# Copy Trading Client Configuration
+# Copy this file to clients_config.yaml and fill in your real values.
+# NEVER commit clients_config.yaml to version control.
+# All capital values are in INR.
+
+master_account:
+  name: "MasterAccount"             # Identifier used in DB tables — must match what login script saves
+  estimated_capital: 5000000        # Master account capital in INR (used for scaling calculations)
+  user_id: "YOUR_ZERODHA_USER_ID"
+  password: "YOUR_PASSWORD"
+  totp_key: "YOUR_TOTP_SECRET_KEY"  # Base32 TOTP secret from Zerodha 2FA setup
+  api_key: "YOUR_API_KEY"
+  api_secret: "YOUR_API_SECRET"
+  access_token_file: "./access_tokens/access_token_master.txt"
+
+database:
+  host: "YOUR_DB_HOST"              # PostgreSQL host (e.g. RDS endpoint or server IP)
+  port: "5432"
+  name: "your_copy_trading_db"
+  user: "YOUR_DB_USER"
+  password: "YOUR_DB_PASSWORD"
+
+telegram:
+  token: "YOUR_TELEGRAM_BOT_TOKEN"         # From @BotFather
+  error_chat_id: "YOUR_TELEGRAM_CHAT_ID"   # Chat/group ID for error alerts
+  notification_chat_id: "YOUR_TELEGRAM_CHAT_ID"  # Chat/group ID for trade notifications
+
+global_settings:
+  position_sync_interval: 1         # Seconds between position sync loops
+  status_log_interval: 30           # Log status every N loop iterations
+  enable_notifications: true
+  log_level: "INFO"
+
+# Add one entry per copy-trading client
+clients:
+  - name: "Client1"                 # Internal identifier (used in DB tables)
+    display_name: "Client One"      # Human-readable name for logs/notifications
+    enabled: true
+    user_id: "YOUR_ZERODHA_USER_ID"
+    password: "YOUR_PASSWORD"
+    totp_key: "YOUR_TOTP_SECRET_KEY"
+    api_key: "YOUR_API_KEY"
+    api_secret: "YOUR_API_SECRET"
+    access_token_file: "./access_tokens/access_token_client1.txt"
+    capital: 300000                 # Client capital in INR (used to scale positions)
+    notifications:
+      telegram_enabled: true
+      notify_on_trade: true
+      notify_on_error: true
+
+  - name: "Client2"
+    display_name: "Client Two"
+    enabled: true
+    user_id: "YOUR_ZERODHA_USER_ID"
+    password: "YOUR_PASSWORD"
+    totp_key: "YOUR_TOTP_SECRET_KEY"
+    api_key: "YOUR_API_KEY"
+    api_secret: "YOUR_API_SECRET"
+    access_token_file: "./access_tokens/access_token_client2.txt"
+    capital: 300000
+    notifications:
+      telegram_enabled: true
+      notify_on_trade: true
+      notify_on_error: true
+
+  # Add more clients as needed:
+  # - name: "Client3"
+  #   display_name: "Client Three"
+  #   enabled: false
+  #   user_id: "YOUR_ZERODHA_USER_ID"
+  #   password: "YOUR_PASSWORD"
+  #   totp_key: "YOUR_TOTP_SECRET_KEY"
+  #   api_key: "YOUR_API_KEY"
+  #   api_secret: "YOUR_API_SECRET"
+  #   access_token_file: "./access_tokens/access_token_client3.txt"
+  #   capital: 300000
+  #   notifications:
+  #     telegram_enabled: true
+  #     notify_on_trade: true
+  #     notify_on_error: true

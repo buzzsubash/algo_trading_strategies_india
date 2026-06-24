@@ -22,6 +22,7 @@ This repository is an **open-source** collection of **algorithmic trading strate
 ✅ **Iron-fly strategies** for hedged option selling  
 ✅ **Stop-loss mechanisms** including **fixed, percentage-based, and trailing stops**  
 ✅ **Mark-to-market (MTM) based target execution**  
+✅ **Copy trading** — automatically mirror a master account's positions across multiple client accounts with capital-proportional scaling  
 ✅ Future expansion for **multi-broker support**
 
 ---
@@ -85,6 +86,23 @@ This repository is an **open-source** collection of **algorithmic trading strate
 | **MTM Square-off System** | **Zerodha Kite** | Real-time MTM monitoring with automated square-off | ✅ **Ready** | • Real-time Position Monitoring<br>• Loss Threshold Protection<br>• Daily Profit Target Management<br>• Bulletproof Order Execution<br>• Trading Discipline Mode<br>• Volume Freeze Handling<br>• Comprehensive Logging | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/tree/main/broker-utilities/mtm_square_off_zerodha) |
 
 ---
+
+### 📡 **Copy Trading**
+
+Automatically mirrors positions from a master Zerodha account to multiple client accounts in real time. Client positions are scaled proportionally to their capital relative to the master account.
+
+| **Component** | **Broker** | **Description** | **Status** | **GitHub Link** |
+|---------------|------------|-----------------|------------|-----------------|
+| **Login — All Accounts** | Zerodha Kite | Bulk daily login for master + all client accounts | ✅ **Ready** | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/copy-trading/zerodha_kite_api/login_all_accounts.py) |
+| **Login — Single Account** | Zerodha Kite | Per-account login template | ✅ **Ready** | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/copy-trading/zerodha_kite_api/login_single_account.py) |
+| **Copy Trading Executor** | Zerodha Kite | Reads master positions from DB, scales by capital ratio, places orders on client accounts | ✅ **Ready** | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/copy-trading/zerodha_kite_api/copy_trading_executor.py) |
+| **Master Position Fetcher** | Zerodha Kite | Polls master account positions every second and stores in PostgreSQL | ✅ **Ready** | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/copy-trading/zerodha_kite_api/fetch_master_positions.py) |
+| **Master Order Fetcher** | Zerodha Kite | Polls master account orders/trades and stores in PostgreSQL with EOD archiving | ✅ **Ready** | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/copy-trading/zerodha_kite_api/fetch_master_orders.py) |
+| **LTP Subscriber** | Zerodha Kite | WebSocket subscriber for live market prices of open positions | ✅ **Ready** | [View Code](https://github.com/buzzsubash/algo_trading_strategies_india/blob/main/copy-trading/zerodha_kite_api/ltp_subscriber.py) |
+| **Copy Trading (AngelOne)** | AngelOne | Mirror trades via AngelOne API | ⚙️ **Planned** | *Coming Soon* |
+
+> See [`copy-trading/zerodha_kite_api/README.md`](copy-trading/zerodha_kite_api/README.md) for full setup guide, architecture, and database schema.
+
 ---
 
 ## 📌 How to Use
