@@ -102,7 +102,7 @@ If you're interested in collaborating or discussing algo trading strategies, fee
 
 ### 🔗 **Let's Connect!**  
 
-- 📱 **WhatsApp:** [https://wa.me/6594675969](https://wa.me/6594675969) [https://wa.me/919605006699](https://wa.me/919605006699)  
+- 📱 **WhatsApp:** [https://wa.me/919605006699](https://wa.me/919605006699) [https://wa.me/6594675969](https://wa.me/6594675969)  
 - 🐦 **Twitter (X):** [https://x.com/buzzsubash](https://x.com/buzzsubash)  
 - 📍 **LinkedIn:** [https://www.linkedin.com/in/buzzsubash](https://www.linkedin.com/in/buzzsubash)
 - 💻 **GitHub:** [https://github.com/buzzsubash](https://github.com/buzzsubash)  
